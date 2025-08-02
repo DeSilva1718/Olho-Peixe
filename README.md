@@ -4,22 +4,21 @@ Bem-vindo ao repositório oficial do **Olho de Peixe**, onde mergulhamos (sem ta
 
 ## 🌊 O que você vai encontrar?
 
-Este site simples e feito apenas com **HTML + CSS puro**, sem frameworks, sem JavaScript, sem mágica — apenas código limpo e escamas.
+Este é um site feito com **HTML + CSS puro**, sem frameworks, sem JavaScript(só um pouquinho), sem back-end... só água, bolhas e semântica.
 
 ### Os nossos “astros” aquáticos:
 
-1. **Peixe 1**   
-   Popularizado pelo Nemo. Vive em anêmonas e tem um ótimo agente de marketing.
+1. **Peixe-bolha** 🫧  
+   Um peixe que parece estar derretendo de tédio. Não julgue pela aparência — ele já sofre o suficiente fora d'água.
 
-2. **Peixe 2**   
-   Um peixe com reputação de vilão de filme. Não gosta de água com gente... mas não é pessoal.
+2. **Peixe-boi** 🐋  
+   Não é boi e também não é peixe do ponto de vista técnico — é um mamífero marinho pacato e vegetariano. Vive na tranquilidade... e no mal-entendido.
 
-3. **Peixe 3**   
-   Um peixe que parece um bug da natureza. Enorme, estranho e zero preocupações com a estética.
+3. **Peixe-negro** 🐠 (também conhecido como peixe-diabo negro)  
+   Habita as profundezas e carrega uma lâmpada na cabeça — ideal para ler um livro no escuro ou assustar peixinhos inocentes.
 
-4. **Peixe 4**   
-    .
+4. **Tubarão** 🦈  
+   Um peixe de respeito. Má reputação nos cinemas, mas é só um predador com bom senso de direção e dentes extras.
 
 5. **Golfinho** 🐬  
-   NÃO É UM PEIXE! Mas é tão carismático que conseguimos perdoar. Um mamífero infiltrado nesse cardume.
-
+   **NÃO É UM PEIXE!** Mas é tão carismático que deixamos entrar na festa. Inteligente, social e sempre sorrindo, mesmo quando está julgando você.
