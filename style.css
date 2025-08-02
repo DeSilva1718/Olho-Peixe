@@ -37,3 +37,18 @@
       text-align: center;
       padding: 10px;
     }
+    a {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            background-color: #0077b6;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #005f8a;
+        }
