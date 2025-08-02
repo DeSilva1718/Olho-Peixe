@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pirarucu • Arapaima gigas</title>
+  <style>
+    :root {
+      --cor-primaria: #045f5f;
+      --cor-secundaria: #afe0dd;
+      --cor-fundo: #f7fdfa;
+      --cor-texto: #2e3d49;
+      --destaque: #e07a5f;
+    }
+    * { box-sizing: border-box; margin:0; padding:0; }
+    body { background: var(--cor-fundo); color: var(--cor-texto);
+           font-family: "Segoe UI", sans-serif; line-height:1.6; }
+    header { background: var(--cor-primaria); color:#fff;
+             padding:1.5rem; text-align:center; position:sticky;
+             top:0; z-index:1000; box-shadow:0 2px 5px rgba(0,0,0,0.2);}
+    nav a { margin:0 1rem; color:var(--destaque); text-decoration:none;
+            font-weight:bold; transition:0.3s; }
+    nav a:hover { text-decoration:underline; }
+    section { padding:2rem; max-width:900px; margin:auto; }
+    h2 { color:var(--cor-primaria); margin-bottom:1rem;
+         border-bottom:2px solid var(--cor-primaria); padding-bottom:.5rem; }
+    p { margin-bottom:1rem; }
+    .fact-box { background: var(--cor-secundaria); padding:1rem;
+                margin:1.5rem 0; border-left:4px solid var(--destaque); }
+    .img-placeholder { width:100%; height:300px; background:#ddd;
+                       border-radius:8px; margin:1rem 0;
+                       display:flex; align-items:center;
+                       justify-content:center; color:#666;
+                       font-size:1.2rem; }
+    footer { background: var(--cor-primaria); color:#fff;
+             text-align:center; padding:1rem; margin-top:2rem; }
+    @media (max-width:768px) {
+      nav a { display:inline-block; margin:.5rem; }
+      section { padding:1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pirarucu (Arapaima gigas)</h1>
+    <nav>
+      <a href="#habitat">Habitat</a>
+      <a href="#anatomia">Anatomia</a>
+      <a href="#alimentacao">Alimentação</a>
+      <a href="#reproducao">Reprodução</a>
+      <a href="#conservacao">Conservação</a>
+    </nav>
+  </header>
+
+  <section id="intro">
+    <h2>Introdução</h2>
+    <div class="img-placeholder">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Arapaima_gigas_at_Beijing_aquarium.JPG" alt="Pirarucu" width="850px" height="300px" style="max-width:100%; border-radius:8px;" />
+    </div>
+    <p>O pirarucu (<strong>Arapaima gigas</strong>) é um dos maiores peixes de água doce do mundo, nativo da Bacia Amazônica. Pode atingir até cerca de 3 m a 4,5 m e pesar entre 100 e 200 kg, embora os tamanhos mais comuns variem entre 1,8 a 2 m e cerca de 90 kg :contentReference[oaicite:1]{index=1}.</p>
+  </section>
+
+  <section id="habitat">
+    <h2>Habitat</h2>
+    <p>Habita rios e lagos de várzea na região amazônica — Brasil, Peru e Guiana — preferindo águas claras e calmas, com temperaturas entre 24 °C e 37 °C. Evita áreas de correnteza ou alta sedimentação :contentReference[oaicite:2]{index=2}.</p>
+  </section>
+
+  <section id="anatomia">
+    <h2>Anatomia & Respiração</h2>
+    <div class="fact-box">
+      <p><strong>Respiração aérea obrigatória:</strong> utiliza brânquias e uma bexiga natatória modificada como pulmão. Precisa subir à superfície a cada 10‑20 minutos para respirar, produzindo um som semelhante a tosse :contentReference[oaicite:3]{index=3}.</p>
+    </div>
+    <div class="fact-box">
+      <p><strong>Escamas resistentes:</strong> suas escamas são altamente fortes e flexíveis, quase atuando como uma armadura natural contra predadores como piranhas :contentReference[oaicite:4]{index=4}.</p>
+    </div>
+    <div class="img-placeholder">
+      <img src="https://static.wikia.nocookie.net/unsung-animals/images/8/84/Adisplay.png/revision/latest?cb=20221216071212" alt="Anatomia do Pirarucu" width="850px" height="" style="max-width:100%; border-radius:8px;" />
+    </div>
+  </section>
+
+  <section id="alimentacao">
+    <h2>Alimentação</h2>
+    <p>O pirarucu é um predador de topo: se alimenta principalmente de peixes, crustáceos, moluscos, insetos e até aves próximas à água. Adota uma estratégia de sucção poderosa para capturar presas :contentReference[oaicite:5]{index=5}.</p>
+  </section>
+
+  <section id="reproducao">
+    <h2>Reprodução & Desenvolvimento</h2>
+    <p>A desova ocorre na estação seca/início da cheia, geralmente entre dezembro e maio ou fevereiro a abril. Machos constroem ninhos rasos na lama, onde a fêmea deposita até 180 mil ovos. Os jovens eclodem em 8–10 dias e nadam ao redor da cabeça do pai, que os protege por até seis meses sendo um cuidador bucal único entre peixes :contentReference[oaicite:6]{index=6}.</p>
+  </section>
+
+  <section id="conservacao">
+    <h2>Conservação</h2>
+    <p>Foi profundamente afetado pela pesca predatória, mas modelos comunitários de manejo assentado conseguiram recuperar populações em algumas regiões, passando de cerca de 2.500 indivíduos em 1999 para mais de 170.000 em 2017. Ainda assim, enfrenta pesca ilegal e perda de diversidade genética. Está classificado como "data deficient" pela IUCN e listado no Apêndice II da CITES desde 1975 :contentReference[oaicite:7]{index=7}.</p>
+  </section>
+
+  <footer>
+    <p>Site desenvolvido com base em informações da Wikipedia, WWF e outras fontes científicas selecionadas até 2025 ©</p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        document.querySelector(link.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>
