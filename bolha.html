@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peixe-Bolha (Blobfish)</title>
+  <style>
+    :root {
+      --cor-primaria: #006fa1;
+      --cor-secundaria: #e0f7fa;
+      --cor-fundo: #f5fcff;
+      --cor-texto: #222;
+      --destaque: #ffb700;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: var(--cor-fundo);
+      color: var(--cor-texto);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--cor-primaria);
+      color: white;
+      padding: 1.5rem 2rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    header h1 {
+      margin-bottom: 0.5rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      color: var(--destaque);
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: var(--cor-primaria);
+      margin-bottom: 1rem;
+      border-bottom: 2px solid var(--cor-primaria);
+      padding-bottom: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    .fact-box {
+      background-color: var(--cor-secundaria);
+      padding: 1rem;
+      margin: 1.5rem 0;
+      border-left: 4px solid var(--cor-primaria);
+    }
+
+    .img-placeholder {
+      width: 100%;
+      height: 300px;
+      background-color: #ddd;
+      border-radius: 8px;
+      margin: 1rem 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #888;
+      font-size: 1.2rem;
+    }
+
+    footer {
+      background: var(--cor-primaria);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      nav a {
+        display: inline-block;
+        margin: 0.5rem;
+      }
+
+      section {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Peixe‑Bolha (Blobfish)</h1>
+    <nav>
+      <a href="#habitat">Habitat</a>
+      <a href="#anatomia">Anatomia</a>
+      <a href="#alimentacao">Alimentação</a>
+      <a href="#reproducao">Reprodução</a>
+      <a href="#conservacao">Conservação</a>
+    </nav>
+  </header>
+
+  <section id="intro">
+    <h2>Introdução</h2>
+    <div class="img-placeholder">
+      <!-- Imagem do peixe-bolha -->
+      <img src="https://equipamentoparapesca.com.br/wp-content/uploads/2024/11/peixe-bolha-no-fundo-do-mar.webp" alt="Peixe-bolha" width="1000px" height="300px" style="max-width: 100%; border-radius: 8px;" />
+    </div>
+    <p>O peixe‑bolha, cientificamente conhecido como <strong>Psychrolutes marcidus</strong>, é uma criatura das profundezas do oceano, famoso por sua aparência gelatinosa fora d’água. Vive nas águas profundas ao redor da Austrália, Nova Zelândia e Tasmânia.</p>
+  </section>
+
+  <section id="habitat">
+    <h2>Habitat</h2>
+    <p>Esse peixe habita profundezas entre 600 e 1.200 metros, em áreas onde a pressão é extremamente alta e a luz solar não penetra. Nessas regiões, a temperatura da água é muito baixa e os movimentos são lentos, o que se reflete no seu comportamento passivo e corpo adaptado para flutuar sem esforço.</p>
+  </section>
+
+  <section id="anatomia">
+    <h2>Anatomia</h2>
+    <div class="fact-box">
+      <p><strong>Flutuação natural:</strong> O corpo do peixe‑bolha é composto quase inteiramente por uma massa gelatinosa, mais leve que a água, o que permite que ele flutue sem gastar energia.</p>
+    </div>
+    <div class="fact-box">
+      <p><strong>Sem esqueleto rígido:</strong> Ele não possui estrutura óssea sólida nem músculos desenvolvidos — por isso se deforma completamente quando é trazido à superfície.</p>
+    </div>
+    <div class="img-placeholder">
+      <!-- Outra imagem do peixe -->
+      <img src="https://meusanimais.com.br/wp-content/uploads/2019/03/peixe-bolha-caracteristicas.jpg" alt="Estrutura do peixe-bolha" width="600px" height="300px" style="max-width: 100%; border-radius: 8px;" />
+    </div>
+  </section>
+
+  <section id="alimentacao">
+    <h2>Alimentação</h2>
+    <p>O peixe‑bolha é um animal oportunista: ele permanece parado no fundo do mar e se alimenta de pequenos organismos que flutuam até ele, como crustáceos, moluscos e matéria orgânica.</p>
+  </section>
+
+  <section id="reproducao">
+    <h2>Reprodução</h2>
+    <p>As fêmeas depositam milhares de ovos no fundo do oceano. Sabe-se que os pais podem permanecer sobre os ovos, protegendo-os de predadores e correntes marinhas. A reprodução ocorre em regiões profundas, o que dificulta o estudo detalhado dessa fase.</p>
+  </section>
+
+  <section id="conservacao">
+    <h2>Conservação</h2>
+    <p>Apesar de não estar formalmente classificado como ameaçado, o peixe‑bolha é vítima frequente da pesca de arrasto em águas profundas, que destrói habitats e captura espécies acidentalmente. Em 2013, foi eleito o “animal mais feio do mundo”, o que chamou atenção global para sua conservação.</p>
+  </section>
+
+  <footer>
+    <p>Site desenvolvido com base em informações da Wikipedia e outras fontes científicas. © 2025</p>
+  </footer>
+
+  <script>
+    // Navegação suave
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        const section = document.querySelector(link.getAttribute('href'));
+        section.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+
+</body>
+</html>
