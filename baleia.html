@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baleias • Gigantes dos Oceanos</title>
+  <style>
+    :root {
+      --cor-primaria: #004a7c;
+      --cor-secundaria: #87bfff;
+      --cor-fundo: #f0faff;
+      --cor-texto: #222;
+      --destaque: #ff8c00;
+    }
+    * { box-sizing: border-box; margin:0; padding:0; }
+    body { background: var(--cor-fundo); color: var(--cor-texto);
+           font-family: "Segoe UI", sans-serif; line-height:1.6; }
+    header { background: var(--cor-primaria); color:#fff;
+             padding:1.5rem; text-align:center; position:sticky; top:0; z-index:1000;
+             box-shadow:0 2px 5px rgba(0,0,0,0.2); }
+    nav a { margin:0 1rem; color:var(--destaque); text-decoration:none;
+            font-weight:bold; transition:0.3s; }
+    nav a:hover { text-decoration:underline; }
+    section { padding:2rem; max-width:900px; margin:auto; }
+    h2 { color:var(--cor-primaria); margin-bottom:1rem;
+         border-bottom:2px solid var(--cor-primaria); padding-bottom:.5rem; }
+    p { margin-bottom:1rem; }
+    .fact-box { background: var(--cor-secundaria); padding:1rem;
+                margin:1.5rem 0; border-left:4px solid var(--destaque); }
+    .img-placeholder { width:100%; height:300px; background:#ddd;
+                       border-radius:8px; margin:1rem 0;
+                       display:flex; align-items:center;
+                       justify-content:center; color:#666; font-size:1.2rem; }
+    footer { background: var(--cor-primaria); color:#fff; text-align:center;
+             padding:1rem; margin-top:2rem; }
+    @media (max-width:768px) { section { padding:1.5rem; } nav a { display:inline-block; margin:.5rem; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Baleias: Gigantes dos Oceanos</h1>
+    <nav>
+      <a href="#habitat">Habitat & Migração</a>
+      <a href="#anatomia">Anatomia</a>
+      <a href="#alimentacao">Alimentação</a>
+      <a href="#reproducao">Reprodução</a>
+      <a href="#conservacao">Conservação</a>
+    </nav>
+  </header>
+
+  <section id="intro">
+    <h2>Introdução</h2>
+    <div class="img-placeholder">
+      <img src="https://static.todamateria.com.br/upload/ba/le/baleiajubaret-cke.jpg" alt="Imagem de baleia" width="850px" height="300px" style="max-width:100%; border-radius:8px;" />
+    </div>
+    <p>As baleias são mamíferos marinhos pertencentes à ordem dos cetáceos. Existem duas grandes categorias: as misticetas (baleias com barbatana) e os odontocetos (baleias com dentes). São encontradas em oceanos de todo o mundo, adaptadas a ambientes desde superficiais até águas profundas :contentReference[oaicite:1]{index=1}.</p>
+  </section>
+
+  <section id="habitat">
+    <h2>Habitat & Migração</h2>
+    <p>Espécies como a baleia-comum migram entre zonas de alimentação em águas frias e reprodução em regiões tropicais ou temperadas, como Atlântico Norte, Pacífico e Hemisfério Sul :contentReference[oaicite:2]{index=2}.</p>
+  </section>
+
+  <section id="anatomia">
+    <h2>Anatomia & Características</h2>
+    <div class="fact-box">
+      <p><strong>Tamanho impressionante:</strong> A baleia-comum pode atingir até 27 m de comprimento e pesar cerca de 70 toneladas — é o segundo maior animal vivo, atrás apenas da baleia-azul :contentReference[oaicite:3]{index=3}.</p>
+    </div>
+    <div class="fact-box">
+      <p><strong>Filtragem eficiente:</strong> As baleias de barbatana possuem centenas de cerdas queratinosas para filtrar krill e pequenos peixes; uma engolida diária pode consumir >1 000 kg de alimento :contentReference[oaicite:4]{index=4}.</p>
+    </div>
+    <div class="img-placeholder">
+      <img src="https://images.theconversation.com/files/666261/original/file-20250423-56-6ismkr.jpg?ixlib=rb-4.1.0&rect=0%2C155%2C4200%2C2357&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip" alt="Anatomia interna de baleia" width="850px" height="300px" style="max-width:100%; border-radius:8px;" />
+    </div>
+  </section>
+
+  <section id="alimentacao">
+    <h2>Alimentação</h2>
+    <p>Baleias como as balaenopterídeas consomem principalmente krill, copépodes, peixes e lulas. Elas tiburam abrir a mandíbula durante o nado e filtram grandes volumes de água através de suas barbas :contentReference[oaicite:5]{index=5}.</p>
+  </section>
+
+  <section id="reproducao">
+    <h2>Reprodução & Ciclo de Vida</h2>
+    <p>A maioria das baleias dá à luz a um único filhote após cerca de 11‑12 meses de gestação. O desmame ocorre geralmente entre 6 a 12 meses, e o intervalo entre nascimentos é de 2 a 3 anos :contentReference[oaicite:6]{index=6}.</p>
+    <p>Espécies como a baleia-azul atingem a maturidade sexual entre 5 e 11 anos e têm expectativa de vida de até 80‑90 anos ou mais (há registros de baleias beluga e franca vivendo até mais de 100 anos) :contentReference[oaicite:7]{index=7}.</p>
+  </section>
+
+  <section id="conservacao">
+    <h2>Conservação</h2>
+    <p>No século XX era comum a caça comercial em larga escala, quase levando algumas espécies à extinção. Graças às proibições internacionais, muitas populações têm se recuperado, embora ameaças persistam como colisões com navios, poluição sonora e oceânica, mudanças climáticas e pesca incidental :contentReference[oaicite:8]{index=8}.</p>
+  </section>
+
+  <footer>
+    <p>Site desenvolvido com base em informações da Wikipedia e fontes científicas atualizadas até 2025. © 2025</p>
+  </footer>
+
+  <script>
+    // Rolagem suave entre seções
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        const sec = document.querySelector(link.getAttribute('href'));
+        sec.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>
